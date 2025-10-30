@@ -1,2 +1,3 @@
 exercise 11: LED wired to D6, Potentiometer to A1, LED blinks 500ms on 500 ms off
 analog value on A1 read once per second and prints to serial monitor at 9600 baud, readings from 20-4080
+exercise 12: with WiFiNINA library & given code from assignment, Code runs loop checking for wifi networks, then prints network name with signal strength and encryption to serial monitor. My understanding of the functions: WiFi.status detects presence of wifi networks from built in wifi module, WiFi.SSID gives name of detected wifi network, WiFi.RSSI gives signal strength of detected network in dBm, WiFi.encryptiontype gives an integer value corresponding to encryption standard used?
